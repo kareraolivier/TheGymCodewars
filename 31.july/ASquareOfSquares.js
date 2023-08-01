@@ -19,7 +19,9 @@
 // 26  =>  false
 
 const isSquare = (n) => {
+  //
   if (n < 0) return false;
+
   if (n != 1) {
     for (let i = 0; i <= n / 2; i++) {
       if (i ** 2 == n) return true;
